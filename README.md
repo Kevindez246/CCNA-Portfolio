@@ -1,7 +1,12 @@
-# 🧰 CCNA Lab Portfolio
+# 🧰 CCNA Lab Portfolio – Built in GNS3 & VMware
 
-Welcome! This repository is my **hands-on CCNA portfolio** built in GNS3 and VMware.  
-It demonstrates not only configuration skills but also **troubleshooting, documentation, and network design** — the full toolkit employers expect from a junior network engineer.
+Welcome! I’m **Jahson Jno-Baptiste (JB)** — an IT professional and veteran, building my way into **network engineering & cybersecurity** through hands-on labs.  
+
+This repository is my **hands-on CCNA portfolio**, showcasing:  
+- Configuration skills (switching, routing, security)  
+- Troubleshooting ability (broken → fixed labs)  
+- Documentation habits (configs, screenshots, markdown)  
+- Network design (home lab with pfSense)  
 
 ---
 
@@ -71,15 +76,17 @@ CCNA-Portfolio/
 
 ---
 
-## 📖 Why This Portfolio Matters
+## 🎯 Why This Portfolio Matters
 
 Employers don’t just want certifications — they want proof of **real-world, hands-on capability**.  
 This repo shows:
 
-- **Configuration fluency** (raw configs + guides).  
-- **Troubleshooting process** (broken/fixed labs).  
-- **Documentation habits** (readable Markdown, screenshots, diagrams).  
-- **Initiative**: building skills without physical routers/switches.
+- **Configuration fluency** (raw configs + guides)  
+- **Troubleshooting process** (broken/fixed labs)  
+- **Documentation habits** (markdown + screenshots)  
+- **Initiative**: building labs without physical routers/switches  
+
+📌 *Built with GNS3, VMware, VPCS, pfSense, and open-source tools.*
 
 ---
 
