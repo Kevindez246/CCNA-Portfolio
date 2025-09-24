@@ -12,7 +12,7 @@ It demonstrates not only configuration skills but also **troubleshooting, docume
 CCNA-Portfolio/
 ├── switching-labs/
 │    └── vlan-intervlan/
-│         ├── LAB\_GUIDE.md
+│         ├── LAB_GUIDE.md
 │         ├── switch-config.txt
 │         ├── router-config.txt
 │         ├── README.md
