@@ -1,5 +1,9 @@
 # VLAN & Inter-VLAN Routing Lab
 
+This lab demonstrates how to configure **VLANs**, assign access ports, set up a **router-on-a-stick**, and verify inter-VLAN communication using VPCS hosts.  
+
+It also links to **troubleshooting variants** where small misconfigurations (wrong VLAN, missing trunk, wrong default gateway) are introduced intentionally. These showcase both **diagnostic process** and **fixes**, simulating real-world troubleshooting.
+
 ## 🎯 Goal
 
 * Create VLANs and assign ports on the switch.
@@ -160,3 +164,25 @@ ping 192.168.10.10
 * Router-on-a-stick allowed routing between VLAN 10 and VLAN 20.
 * End devices could ping across VLANs once correct gateways were configured.
 * This validates: VLAN creation, port assignment, trunking, router subinterfaces, and host configs.
+
+---
+
+## 🔀 Troubleshooting Variants
+
+This lab also includes **intentionally broken scenarios** to showcase troubleshooting and repair skills.  
+
+### Variant 1 – Wrong VLAN Assignment
+- [Broken Config](./variant1-broken/README.md)  
+- [Fixed Config](./variant1-fixed/README.md)  
+
+### Variant 2 – Missing Trunk
+- [Broken Config](./variant2-broken/README.md)  
+- [Fixed Config](./variant2-fixed/README.md)  
+
+### Variant 3 – Wrong Default Gateway
+- [Broken Config](./variant3-broken/README.md)  
+- [Fixed Config](./variant3-fixed/README.md)  
+
+---
+
+✅ These demonstrate how small misconfigurations can **break connectivity** — and how to systematically troubleshoot using `show`, `ping`, and config verification.
