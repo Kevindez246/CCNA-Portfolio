@@ -30,5 +30,3 @@ Result: Ping fails because PC2 is placed in the wrong VLAN and cannot communicat
 * VLANs are **Layer 2 boundaries** — hosts in the wrong VLAN will never see the correct gateway.
 * A simple port misassignment can break connectivity for an entire subnet.
 * Always verify VLAN-to-port mapping with `show vlan brief` on the switch to confirm assignments.
-
-```
