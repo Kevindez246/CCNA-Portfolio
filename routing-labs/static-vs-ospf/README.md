@@ -268,54 +268,66 @@ show ip route ospf
 
 ## 📷 Screenshots
 
-![GNS3 topology layout](./topology.png)
+![GNS3 topology layout](./screenshots/topology.png)
 
-![IP Addressing Plan table](./ip_plan.png)
 
-![R1 interface configuration](./r1_ip_int_config.png)
+![IP Addressing Plan table](./screenshots/ip_plan.png)
 
-![R2 interface configuration](./r2_ip_int_config.png)
 
-![R3 interface configuration](./r3_ip_int_config.png)
+![R1 interface configuration](./screenshots/r1_ip_int_config.png)
 
-![PC1 IP settings output](./pc1_ip_config.png)
 
-![PC1 persistent network config](./persistent_settings_pc1.png)
+![R2 interface configuration](./screenshots/r2_ip_int_config.png)
 
-![Static route on R1](./r1_static.png)
 
-![Static route on R2](./r2_static.png)
+![R3 interface configuration](./screenshots/r3_ip_int_config.png)
 
-![Static route on R3](./r3_static.png)
 
-![PC1 pinging PC2 (static)](./pc1_to_pc2_ping.png)
+![PC1 IP settings output](./screenshots/pc1_ip_config.png)
 
-![PC2 pinging PC1 (static)](./pc2_to_pc1_ping.png)
 
-![PC2 traceroute to PC1](./pc2_traceroute.png)
+![PC1 persistent network config](./screenshots/persistent_settings_pc1.png)
 
-![Floating static route on R1](./r1_static_floating.png)
 
-![Default route on R2](./r2_static_default.png)
+![Static route on R1](./screenshots/r1_static.png)
 
-![R2 hostname/logging verification](./R2_hostname_logging.png)
 
-![Static routes removed](./static_routes_gone.png)
+![Static route on R2](./screenshots/r2_static.png)
 
-![Ping fails after removing statics](./ping_fail.png)
 
-![OSPF configuration on R1](./r1_ospf_config.png)
+![Static route on R3](./screenshots/r3_static.png)
 
-![OSPF neighbor table on R2](./r2_ospf_neighbor.png)
 
-![OSPF-learned routes on PCs](./ospf_ip_route_other_pcs.png)
+![PC1 pinging PC2 (static)](./screenshots/pc1_to_pc2_ping.png)
 
-![PC1 ping PC2 (OSPF)](./pc1_ping_dynamic.png)
 
-![R2 interfaces shut down](./shutdown.png)
+![PC2 pinging PC1 (static)](./screenshots/pc2_to_pc1_ping.png)
 
-![Neighbor down log on R1](./down_no_neighbor.png)
 
-![No routes after shutdown](./routes_gone_after_shutdown.png)
+![PC2 traceroute to PC1](./screenshots/pc2_traceroute.png)
 
-![OSPF recovery after re-enable](./ospf_recovery.png)
+![Floating static route on R1](./screenshots/r1_static_floating.png)
+
+![Default route on R2](./screenshots/r2_static_default.png)
+
+![R2 hostname/logging verification](./screenshots/R2_hostname_logging.png)
+
+![Static routes removed](./screenshots/static_routes_gone.png)
+
+![Ping fails after removing statics](./screenshots/ping_fail.png)
+
+![OSPF configuration on R1](./screenshots/r1_ospf_config.png)
+
+![OSPF neighbor table on R2](./screenshots/r2_ospf_neighbor.png)
+
+![OSPF-learned routes on PCs](./screenshots/ospf_ip_route_other_pcs.png)
+
+![PC1 ping PC2 (OSPF)](./screenshots/pc1_ping_dynamic.png)
+
+![R2 interfaces shut down](./screenshots/shutdown.png)
+
+![Neighbor down log on R1](./screenshots/down_no_neighbor.png)
+
+![No routes after shutdown](./screenshots/routes_gone_after_shutdown.png)
+
+![OSPF recovery after re-enable](./screenshots/ospf_recovery.png)
