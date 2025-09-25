@@ -266,33 +266,56 @@ show ip route ospf
 * **Floating static + default routes** are useful as backups or at the edge.
 * This lab validated both approaches with step-by-step configs, verification, and failure/recovery testing.
 
----
+## 📷 Screenshots
 
-## Screenshots
+![GNS3 topology layout](./topology.png)
 
-1. **topology.png** – GNS3 topology layout
-2. **ip\_plan.png** – IP Addressing Plan table
-3. **r1\_ip\_int\_config.png** – R1 interface configuration
-4. **r2\_ip\_int\_config.png** – R2 interface configuration
-5. **r3\_ip\_int\_config.png** – R3 interface configuration
-6. **pc1\_ip\_config.png** – PC1 IP settings output
-7. **persistent\_settings\_pc1.png** – PC1 persistent network config
-8. **r1\_static.png** – Static route on R1
-9. **r2\_static.png** – Static route on R2
-10. **r3\_static.png** – Static route on R3
-11. **pc1\_to\_pc2\_ping.png** – PC1 pinging PC2 (static)
-12. **pc2\_to\_pc1\_ping.png** – PC2 pinging PC1 (static)
-13. **pc2\_traceroute.png** – PC2 traceroute to PC1
-14. **r1\_static\_floating.png** – Floating static route on R1
-15. **r2\_static\_default.png** – Default route on R2
-16. **R2\_hostname\_logging.png** – R2 hostname/logging verification
-17. **static\_routes\_gone.png** – Static routes removed
-18. **ping\_fail.png** – Ping fails after removing statics
-19. **r1\_ospf\_config.png** – OSPF configuration on R1
-20. **r2\_ospf\_neighbor.png** – OSPF neighbor table on R2
-21. **ospf\_ip\_route\_other\_pcs.png** – OSPF-learned routes on PCs
-22. **pc1\_ping\_dynamic.png** – PC1 ping PC2 (OSPF)
-23. **shutdown.png** – R2 interfaces shut down
-24. **down\_no\_neighbor.png** – Neighbor down log on R1
-25. **routes\_gone\_after\_shutdown.png** – No routes after shutdown
-26. **ospf\_recovery.png** – OSPF recovery after re-enable
+![IP Addressing Plan table](./ip_plan.png)
+
+![R1 interface configuration](./r1_ip_int_config.png)
+
+![R2 interface configuration](./r2_ip_int_config.png)
+
+![R3 interface configuration](./r3_ip_int_config.png)
+
+![PC1 IP settings output](./pc1_ip_config.png)
+
+![PC1 persistent network config](./persistent_settings_pc1.png)
+
+![Static route on R1](./r1_static.png)
+
+![Static route on R2](./r2_static.png)
+
+![Static route on R3](./r3_static.png)
+
+![PC1 pinging PC2 (static)](./pc1_to_pc2_ping.png)
+
+![PC2 pinging PC1 (static)](./pc2_to_pc1_ping.png)
+
+![PC2 traceroute to PC1](./pc2_traceroute.png)
+
+![Floating static route on R1](./r1_static_floating.png)
+
+![Default route on R2](./r2_static_default.png)
+
+![R2 hostname/logging verification](./R2_hostname_logging.png)
+
+![Static routes removed](./static_routes_gone.png)
+
+![Ping fails after removing statics](./ping_fail.png)
+
+![OSPF configuration on R1](./r1_ospf_config.png)
+
+![OSPF neighbor table on R2](./r2_ospf_neighbor.png)
+
+![OSPF-learned routes on PCs](./ospf_ip_route_other_pcs.png)
+
+![PC1 ping PC2 (OSPF)](./pc1_ping_dynamic.png)
+
+![R2 interfaces shut down](./shutdown.png)
+
+![Neighbor down log on R1](./down_no_neighbor.png)
+
+![No routes after shutdown](./routes_gone_after_shutdown.png)
+
+![OSPF recovery after re-enable](./ospf_recovery.png)
