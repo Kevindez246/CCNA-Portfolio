@@ -50,7 +50,7 @@ CCNA-Portfolio/
   Configure VLANs, router-on-a-stick, and troubleshoot common issues.  
 
 ### 🔸 Routing Labs
-- Static & Dynamic Routing (OSPF focus).  
+- [Static & Dynamic Routing (OSPF focus)](./rotuing-labs/static-vs-ospf/)
   Showcases subnetting, route advertisement, and path selection.  
 
 ### 🔸 Security Labs
