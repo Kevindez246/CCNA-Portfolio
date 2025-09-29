@@ -58,6 +58,7 @@ CCNA-Portfolio/
 - [NAT/PAT](./security-labs/nat-pat/) – IP translation for WAN/Internet access.  
 
 ### 🔸 Troubleshooting Scenarios
+- [Troubleshooting](./troubleshooting-scenarios/)
 - Intentionally broken labs to demonstrate **diagnosis + repair process**.  
 
 ### 🔸 Network Designs
