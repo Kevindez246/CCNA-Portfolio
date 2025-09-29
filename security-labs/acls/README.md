@@ -10,7 +10,7 @@
 ---
 
 ## 🖼️ Topology 
-`acl_topology`
+![GNS3 topology layout](./screenshots/acl_topology.png)
 ```
 PC1 (192.168.10.10) ---- R1 ---- R2 ---- R3 ---- PC2 (192.168.20.10)
 ```
@@ -41,8 +41,8 @@ R1(config-if)# ip access-group 1 in
 
 📸 Screenshots:
 
-* `show_access_a1` (ACL applied)
-* `pc1_ping_fail_a1` (ping blocked, but too broad)
+![show_access_a1](./screenshots/show_access_a1.png) (ACL applied)
+![pc1_ping_fail_a1](./screenshots/pc1_ping_fail_a1.png)  (ping blocked, but too broad)
 
 **Lesson:** Standard ACLs filter only by **source IP**, so placing them near the source blocks *all* traffic from PC1.
 
@@ -63,8 +63,8 @@ R3(config-if)# ip access-group 1 in
 
 📸 Screenshots:
 
-* `r3_in_acl_a2` (ACL applied)
-* `pc1_ping_success_a2` (ping succeeded, showing ACL didn’t catch traffic)
+![r3_in_acl_a2](./screenshots/r3_in_acl_a2.png)  (ACL applied)
+![pc1_ping_success_a2](./screenshots/pc1_ping_success_a2.png)  (ping succeeded, showing ACL didn’t catch traffic)
 
 **Lesson:** PC1’s traffic doesn’t *enter* R3 on G0/1 inbound, it *exits* there. Wrong direction = ACL not triggered.
 
@@ -85,8 +85,8 @@ R3(config-if)# ip access-group 1 out
 
 📸 Screenshots:
 
-* `pc2_ping_fail_a3` (PC2 ping fails)
-* `pc1_ping_fail_a3` (PC1 ping fails)
+![pc2_ping_fail_a3](./screenshots/pc2_ping_fail_a3.png)(PC2 ping fails)
+![pc1_ping_fail_a3](./screenshots/pc1_ping_fail_a3.png)  (PC1 ping fails)
 
 **Lesson:** Standard ACLs are **stateless** and filter by source only. The echo replies from PC1 (source = 192.168.10.10) also matched the deny, breaking PC2 → PC1.
 
@@ -109,7 +109,7 @@ R3(config-if)# ip access-group BLOCK-PC1-PC2 out
 
 📸 Screenshot:
 
-* `pc2_ping_fail_a4`
+![pc2_ping_fail_a4](./screenshots/pc2_ping_fail_a4.png)  
 
 **Lesson:** Even with Extended ACLs, using a broad `deny ip` rule blocks replies as well, since they have the same source/destination pair (PC1 ↔ PC2).
 
@@ -133,8 +133,8 @@ R1(config-if)# ip access-group BLOCK-PC1-PC2-ICMP out
 
 📸 Screenshots:
 
-* `r1_icmp_acl_a5` (ACL applied)
-* `pc2_ping_success_a5` (PC2 ping succeeds, final validation)
+![r1_icmp_acl_a5](./screenshots/r1_icmp_acl_a5.png) (ACL applied)
+![pc2_ping_success_a5](./screenshots/pc2_ping_success_a5.png)(PC2 ping succeeds, final validation)
 
 **Lesson:**
 
