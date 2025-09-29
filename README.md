@@ -20,6 +20,7 @@ CCNA-Portfolio/
 ├── switching-labs/
 │    └── vlan-intervlan/
 │         ├── LAB_GUIDE.md
+|         |── vpcs-config.txt
 │         ├── switch-config.txt
 │         ├── router-config.txt
 │         ├── README.md
