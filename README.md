@@ -30,7 +30,7 @@ CCNA-Portfolio/
 │         ├── variant3-broken/
 │         └── variant3-fixed/
 ├── routing-labs/
-│    └── ospf/
+│    └── static-vs-ospf/
 ├── security-labs/
 │    ├── acls/
 │    └── nat-pat/
